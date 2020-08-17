@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import AsyncSelect from 'react-select';
+import AsyncSelect from 'react-select/async';
 import {capitalizeWithTurkish} from "tornavida/text";
 
 const TzoneProvinceSelect = ({handler}) => {
