@@ -4,13 +4,42 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 .container {
   width: 80%;
   margin: 0 auto;
+}
 
-  @media only screen and (max-width: 768px) {
+.tzone-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 50px;
+  padding-top: 20px;
+  grid-row-gap: 5px;
+  width: 100%;
+  margin-top: 5%;
+}
+
+.select-container {
+  display: grid;
+  width: 60%;
+  height: 100%;
+  align-items: center;
+}
+
+.label {
+  display: inline-block;
+  align-self: center;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
     width: 95%;
+  }
+  .select-container {
+    width: 100%;
   }
 }

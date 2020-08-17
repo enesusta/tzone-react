@@ -10578,6 +10578,11 @@ toidentifier@1.0.0:
   resolved "https://registry.yarnpkg.com/toidentifier/-/toidentifier-1.0.0.tgz#7e1be3470f1e77948bc43d94a3c8f4d7752ba553"
   integrity sha512-yaOH/Pk/VEhBWWTlhI+qXxDFXlejDGcQipMlyxda9nthulaxLZUNcUqFxokp0vcYnvteJln5FNQDRrxj3YcbVw==
 
+tornavida@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/tornavida/-/tornavida-1.0.7.tgz#10c7c8c18063306a69472bfc024335a0c6f90b6f"
+  integrity sha512-Gn8AzJXEyyrhJWUmbxlNkrdZS0UVUud8xPNkMmr+GqnxqNSK89VZ6WhraZo7PmvsLjSpWZhEgaCvvQmktCryuA==
+
 tough-cookie@^2.3.3, tough-cookie@^2.3.4, tough-cookie@^2.5.0, tough-cookie@~2.5.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/tough-cookie/-/tough-cookie-2.5.0.tgz#cd9fb2a0aa1d5a12b473bd9fb96fa3dcff65ade2"
