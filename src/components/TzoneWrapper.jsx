@@ -21,6 +21,7 @@ const TzoneWrapper = () => {
     return <form className="tzone-container">
         <label className='label'>İl</label>
         <TzoneProvinceSelect/>
+        <label className='label'>İlçe</label>
     </form>;
 };
 
