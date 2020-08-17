@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import TzoneProvinceSelect from "./TzoneProvinceSelect";
 import TzoneCountySelect from "./TzoneCountySelect";
 import TzoneTownSelect from "./TzoneTownSelect";
-import TzoneVillageSelect from "./TzoneVilageSelect";
+import TzoneVillageSelect from "./TzoneVillageSelect";
 
 const TzoneWrapper = () => {
     const [province, setProvince] = useState(null);
